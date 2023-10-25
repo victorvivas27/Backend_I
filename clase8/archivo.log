@@ -1,0 +1,95 @@
+
+2023-10-20 12:07:36 INFO  Animal:27 - Animales en la base de datos:
+2023-10-20 12:07:36 ERROR Animal:44 - Columna "nombre " no encontrada
+Column "nombre " not found [42122-224]
+2023-10-20 12:09:04 INFO  Animal:27 - Animales en la base de datos:
+2023-10-20 12:09:04 INFO  Animal:31 - Animal: Firulais  -  Perro
+2023-10-20 12:09:04 INFO  Animal:31 - Animal: Whiskers  -  Gato
+2023-10-20 12:09:04 INFO  Animal:31 - Animal: Rex  -  Perro
+2023-10-20 12:09:04 INFO  Animal:31 - Animal: Tweety  -  Canario
+2023-10-20 12:09:04 INFO  Animal:31 - Animal: Donatello  -  Tortuga
+2023-10-20 12:09:04 ERROR Animal:44 - Error de Sintaxis en sentencia SQL "[*]DELET FROM ANIMALES WHERE ID = 1"; se esperaba "DELETE, DROP"
+Syntax error in SQL statement "[*]DELET FROM ANIMALES WHERE ID = 1"; expected "DELETE, DROP"; SQL statement:
+DELET FROM ANIMALES WHERE ID = 1 [42001-224]
+2023-10-20 12:11:37 INFO  Animal:27 - Animales en la base de datos:
+2023-10-20 12:11:37 INFO  Animal:31 - Animal: Firulais  -  Perro
+2023-10-20 12:11:37 INFO  Animal:31 - Animal: Whiskers  -  Gato
+2023-10-20 12:11:37 INFO  Animal:31 - Animal: Rex  -  Perro
+2023-10-20 12:11:37 INFO  Animal:31 - Animal: Tweety  -  Canario
+2023-10-20 12:11:37 INFO  Animal:31 - Animal: Donatello  -  Tortuga
+2023-10-20 12:11:37 INFO  Animal:35 - ------------------------------------------------------------------------------------------------------------------------------
+2023-10-20 12:11:37 ERROR Animal:44 - Columna "nombre " no encontrada
+Column "nombre " not found [42122-224]
+2023-10-20 12:12:36 INFO  Animal:27 - Animales en la base de datos:
+2023-10-20 12:12:36 INFO  Animal:31 - Animal: Firulais  -  Perro
+2023-10-20 12:12:36 INFO  Animal:31 - Animal: Whiskers  -  Gato
+2023-10-20 12:12:36 INFO  Animal:31 - Animal: Rex  -  Perro
+2023-10-20 12:12:36 INFO  Animal:31 - Animal: Tweety  -  Canario
+2023-10-20 12:12:36 INFO  Animal:31 - Animal: Donatello  -  Tortuga
+2023-10-20 12:12:36 INFO  Animal:35 - ------------------------------------------------------------------------------------------------------------------------------
+2023-10-20 12:12:36 INFO  Animal:39 - Animal: Whiskers  -  Gato
+2023-10-20 12:12:36 INFO  Animal:39 - Animal: Rex  -  Perro
+2023-10-20 12:12:36 INFO  Animal:39 - Animal: Tweety  -  Canario
+2023-10-20 12:12:36 INFO  Animal:39 - Animal: Donatello  -  Tortuga
+2023-10-20 12:18:34 INFO  Figura:37 - Figuras en la base de datos:
+2023-10-20 12:18:34 INFO  Figura:38 - ------------------------------------------------------------------------------------------------------------------------------
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-20 12:18:34 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-23 10:59:45 INFO  Figura:37 - Figuras en la base de datos:
+2023-10-23 10:59:45 INFO  Figura:38 - ------------------------------------------------------------------------------------------------------------------------------
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Rojo
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Cuadrado, Color: Azul
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Triangulo, Color: Verde
+2023-10-23 10:59:45 INFO  Figura:42 - Figuras: Circulo, Color: Amarillo
+2023-10-23 11:00:01 ERROR Empleado:35 - org.h2Drover
+2023-10-23 11:00:30 ERROR Empleado:35 - org.h2Driver
+2023-10-23 11:01:17 ERROR Empleado:35 - Tipo de dato desconocido : "INTAUTO_INCREMENT"
+Unknown data type: "INTAUTO_INCREMENT"; SQL statement:
+CREATE TABLE EMPLEADO (ID INTAUTO_INCREMENT  PRIMARY KEY  NOMBRE  VARCHAR (255) NOT NULL,EDAD INT NOT NULL,EMPRESA VARCHAR(255), FECHAINICIO DATE)  [50004-224]
+2023-10-23 11:02:48 ERROR Empleado:33 - Error de Sintaxis en sentencia SQL "CREATE TABLE EMPLEADO (ID INT AUTO_INCREMENT  PRIMARY KEY  [*]NOMBRE  VARCHAR (255) NOT NULL,EDAD INT NOT NULL,EMPRESA VARCHAR(255), FECHAINICIO DATE) "; se esperaba "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE EMPLEADO (ID INT AUTO_INCREMENT  PRIMARY KEY  [*]NOMBRE  VARCHAR (255) NOT NULL,EDAD INT NOT NULL,EMPRESA VARCHAR(255), FECHAINICIO DATE) "; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE EMPLEADO (ID INT AUTO_INCREMENT  PRIMARY KEY  NOMBRE  VARCHAR (255) NOT NULL,EDAD INT NOT NULL,EMPRESA VARCHAR(255), FECHAINICIO DATE)  [42001-224]
+2023-10-23 11:05:40 ERROR Empleado:33 - Error de Sintaxis en sentencia SQL " [*]INSER INTO EMPLEADOS  (  NOMBRE,EDAD,EMPRESA,FECHAINICIO) VALUES('Victor Vivas'44,'DigitalHouse','2023-01-01'),('Yanina Jurez',38,'Google','2018-09-02'),('Carlor Fermin',65,'Fcebook','2015-07-02')"; se esperaba "INSERT"
+Syntax error in SQL statement " [*]INSER INTO EMPLEADOS  (  NOMBRE,EDAD,EMPRESA,FECHAINICIO) VALUES('Victor Vivas'44,'DigitalHouse','2023-01-01'),('Yanina Jurez',38,'Google','2018-09-02'),('Carlor Fermin',65,'Fcebook','2015-07-02')"; expected "INSERT"; SQL statement:
+ INSER INTO EMPLEADOS  (  NOMBRE,EDAD,EMPRESA,FECHAINICIO) VALUES('Victor Vivas'44,'DigitalHouse','2023-01-01'),('Yanina Jurez',38,'Google','2018-09-02'),('Carlor Fermin',65,'Fcebook','2015-07-02') [42001-224]
+2023-10-23 11:07:50 ERROR Empleado:33 - Error de Sintaxis en sentencia SQL " INSERT INTO EMPLEADOS  (  NOMBRE,EDAD,EMPRESA,FECHAINICIO) VALUES('Victor Vivas'[*]44,'DigitalHouse','2023-01-01'),('Yanina Jurez',38,'Google','2018-09-02'),('Carlor Fermin',65,'Fcebook','2015-07-02')"; se esperaba "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement " INSERT INTO EMPLEADOS  (  NOMBRE,EDAD,EMPRESA,FECHAINICIO) VALUES('Victor Vivas'[*]44,'DigitalHouse','2023-01-01'),('Yanina Jurez',38,'Google','2018-09-02'),('Carlor Fermin',65,'Fcebook','2015-07-02')"; expected "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+ INSERT INTO EMPLEADOS  (  NOMBRE,EDAD,EMPRESA,FECHAINICIO) VALUES('Victor Vivas'44,'DigitalHouse','2023-01-01'),('Yanina Jurez',38,'Google','2018-09-02'),('Carlor Fermin',65,'Fcebook','2015-07-02') [42001-224]
+2023-10-23 11:09:04 INFO  Empleado:21 - Empleado insertado en base de datos
+2023-10-23 11:09:04 INFO  Empleado:28 - ID: 1, Nombre: Victor Vivas, Edad: 44, Empresa: DigitalHouse, Fecha de inicio: 2023-01-01
+2023-10-23 11:09:04 INFO  Empleado:28 - ID: 2, Nombre: Yanina Jurez, Edad: 38, Empresa: Google, Fecha de inicio: 2018-09-02
+2023-10-23 11:09:04 INFO  Empleado:28 - ID: 3, Nombre: Carlor Fermin, Edad: 65, Empresa: Fcebook, Fecha de inicio: 2015-07-02
+2023-10-23 11:12:01 INFO  Empleado:23 - Empleado insertado en base de datos
+2023-10-23 11:12:01 INFO  Empleado:30 - ID: 1, Nombre: Victor Vivas, Edad: 44, Empresa: DigitalHouse, Fecha de inicio: 2023-01-01
+2023-10-23 11:12:01 INFO  Empleado:30 - ID: 2, Nombre: Yanina Jurez, Edad: 38, Empresa: Google, Fecha de inicio: 2018-09-02
+2023-10-23 11:12:01 INFO  Empleado:30 - ID: 3, Nombre: Carlor Fermin, Edad: 65, Empresa: Facebook, Fecha de inicio: 2015-07-02
+2023-10-23 21:55:23 ERROR TestUsuario:52 - or.h2.Driver
+2023-10-23 21:56:23 ERROR TestUsuario:52 - or.h2.Driver
+2023-10-23 21:57:44 ERROR TestUsuario:52 - Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-224]
+2023-10-23 21:58:32 INFO  TestUsuario:34 - Empleado insertado en base de datos
+2023-10-23 21:58:32 INFO  TestUsuario:46 - 1Victorvictoryeyo@gmail.com20.00
+2023-10-23 22:03:58 INFO  TestUsuario:35 - Empleado insertado en base de datos: 
+2023-10-23 22:03:58 INFO  TestUsuario:47 - 1Victorvictoryeyo@gmail.com20.00

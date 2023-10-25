@@ -1,0 +1,24 @@
+[2023-10-20 10:49:26] [INFO ] [ApiProducto:11] Descuento correspondiente por producto:  
+  ProductoSuper{nombre='choclo', tipo='lata'}  
+Descuento:  0
+[2023-10-20 10:49:26] [INFO ] [ApiTarjeta:11] Descuento correspondiente por tarjeta: 
+ TarjetaBanco{numero='77783838389', banco='Galicia'} 
+ Descuento:  0
+[2023-10-20 10:49:26] [INFO ] [ApiCantidad:10]  Descuento correspondiente por cantidad:  15
+[2023-10-20 10:49:26] [INFO ] [FachadaDescuento:21] Descuento total: 15
+[2023-10-20 10:49:57] [INFO ] [ApiProducto:11] Descuento correspondiente por producto:  
+  ProductoSuper{nombre='choclo', tipo='lata'}  
+Descuento:  0
+[2023-10-20 10:49:57] [INFO ] [ApiTarjeta:11] Descuento correspondiente por tarjeta: 
+ TarjetaBanco{numero='77783838389', banco='Galicia'} 
+ Descuento:  0
+[2023-10-20 10:49:57] [INFO ] [ApiCantidad:10]  Descuento correspondiente por cantidad:  15
+[2023-10-20 10:49:57] [INFO ] [FachadaDescuento:21] Descuento total: 15
+[2023-10-20 10:50:52] [INFO ] [ApiProducto:11] Descuento correspondiente por producto:  
+  ProductoSuper{nombre='choclo', tipo='latas'}  
+Descuento:  10
+[2023-10-20 10:50:52] [INFO ] [ApiTarjeta:11] Descuento correspondiente por tarjeta: 
+ TarjetaBanco{numero='77783838389', banco='Galicia'} 
+ Descuento:  0
+[2023-10-20 10:50:52] [INFO ] [ApiCantidad:10]  Descuento correspondiente por cantidad:  15
+[2023-10-20 10:50:52] [INFO ] [FachadaDescuento:21] Descuento total: 25

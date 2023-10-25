@@ -1,0 +1,8 @@
+[2023-10-23 10:15:57] [INFO ] [ListaPromedio:33] El promedio es: 4.0
+[2023-10-23 10:15:57] [INFO ] [ListaPromedio:34] El máximo es: 6
+[2023-10-23 10:15:57] [INFO ] [ListaPromedio:35] El mínimo es: 2
+[2023-10-23 10:15:57] [INFO ] [ListaPromedio:33] El promedio es: 12.0
+[2023-10-23 10:15:57] [INFO ] [ListaPromedio:34] El máximo es: 16
+[2023-10-23 10:15:57] [INFO ] [ListaPromedio:35] El mínimo es: 8
+[2023-10-23 10:15:57] [ERROR] [ListaPromedio:10] La lista es igual a cero
+[2023-10-23 10:15:57] [ERROR] [Main:31] Error al crear ListaPromedio: La lista es igual a cero

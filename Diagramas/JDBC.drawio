@@ -1,0 +1,156 @@
+<mxfile host="Electron" modified="2023-10-19T17:59:27.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="HXDGYKsEKWWB8roXJFNG" version="22.0.2" type="device">
+  <diagram name="Página-1" id="zuogljSVZ2X3yGpN87IK">
+    <mxGraphModel dx="1818" dy="988" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=doubleBlock;endFill=1;shape=link;strokeColor=#00FF00;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-1" target="_CeGgNEBxp5tU7wePw3e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-1" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;DriveManger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="190" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-1">
+          <mxGeometry y="40" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-4" value="+getConnection():Connection" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-1">
+          <mxGeometry y="48" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-5" value="&lt;div&gt;Con la clase disponible, hacemos uso de la clase DriverManager que es el registro de los drivers jdbc que tenemos configurados y obtenemos una conexión a la base de datos.&lt;/div&gt;&lt;div&gt;DriverManager.getConnection necesita tres parámetros:&lt;/div&gt;&lt;div&gt;&lt;b&gt;URL de conexión:&lt;/b&gt; es una URL para conectarse al servidor, el formato varía ligeramente de proveedor a proveedor, pero siempre se puede encontrar en la documentación oficial de cada uno.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt; si el motor soporta acceso multiusuario, acá se pone el nombre de usuario.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Password: &lt;/b&gt;si el motor soporta acceso multiusuario, acá se pone la contraseña de usuario.&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="450" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-4" target="_CeGgNEBxp5tU7wePw3e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;strokeColor=#00FF00;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-7" target="_CeGgNEBxp5tU7wePw3e-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-7" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Connection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-7">
+          <mxGeometry y="40" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-10" value="+setAutoCommit(boolean)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-7">
+          <mxGeometry y="48" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-11" value="+createStatement():Statement" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-7">
+          <mxGeometry y="74" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-12" value="+close()" style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-7">
+          <mxGeometry y="100" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-14" target="_CeGgNEBxp5tU7wePw3e-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-14" value="Class" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-14">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-17" value="+forName(String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-14">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-18" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Con este método cargamos o ‘’registramos’’ la clase principal del driver. Esto hace disponible al DriverManager para poder administrar los drivers jdbc e ir instanciando las clases —que implementan las interfaces— del driver. Como lo que estamos haciendo es buscar una clase por su nombre, mediante un parámetro String, el compilador puede tomar esa sintaxis como válida, pero al momento de la ejecución, puede que la clase no se encuentre en el CLASSPATH. Por eso, este método arroja una ClassNotFoundException que debe manejarse adecuadamente.&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-20" target="_CeGgNEBxp5tU7wePw3e-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-20" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Es una checked exception como cualquier otra y tiene un atributo muy útil cuyo valor podemos consultar con el método getErrorCode(). Este método nos da el código de error que arrojó la base de datos, es decir que, además de la excepción, podemos saber a más bajo nivel qué está ocurriendo.&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-21" value="SQLExeception" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-21">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-24" value="+getErrorCode():int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-21">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.37;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-24" target="_CeGgNEBxp5tU7wePw3e-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="357" />
+              <mxPoint x="210" y="464" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-27" value="Con este método indicamos si esta conexión debe manejar las transacciones automáticamente (true) o manualmente (false). Por el momento, lo pondremos en true." style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="274" y="380" width="336" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-10" target="_CeGgNEBxp5tU7wePw3e-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-29" value="Con este método, preparamos el camino para ejecutar una sentencia contra la base de datos. Aquí nuevamente, &lt;b&gt;se obtiene una instancia de una clase que implementa la interfaz&lt;/b&gt; Statement." style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="274" y="444" width="336" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="237" y="507" />
+              <mxPoint x="237" y="490" />
+              <mxPoint x="274" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-32" value="Para cerrar la conexión. Siempre que usamos algún recurso deberemos liberarlo y, según vimos, es uno de los usos típicos del bloque finally en un esquema try-catch-finally." style="html=1;whiteSpace=wrap;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="274" y="514" width="336" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-12" target="_CeGgNEBxp5tU7wePw3e-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=#00FF00;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-34" target="_CeGgNEBxp5tU7wePw3e-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-34" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Statement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="613" width="165" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-34">
+          <mxGeometry y="40" width="165" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-37" value="+execute(String):ResultSet" style="text;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-34">
+          <mxGeometry y="48" width="165" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-39" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Lo que hacemos es ejecutar la sentencia contra la base de datos. Toma como argumento un String con la sentencia SQL propiamente dicha. Cabe aclarar que hay diferentes maneras de ejecutar sentencias:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1)boolean execute(String):&lt;/b&gt; se utiliza para ejecutar cualquier sentencia a la base de datos.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2)int executeUpdate(String):&lt;/b&gt; se utiliza para ejecutar sentencias DML, o sea, sentencias que manipulen datos (insert, update, delete). Devuelve un entero con la cantidad de filas afectadas por la sentencia&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3)ResultSet executeQuery(String): &lt;/b&gt;se utiliza para ejecutar consultas a base de datos.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="274" y="585" width="451" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-37" target="_CeGgNEBxp5tU7wePw3e-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.004;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_CeGgNEBxp5tU7wePw3e-41" target="_CeGgNEBxp5tU7wePw3e-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="183" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-41" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;ResulSet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="790" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-41">
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-44" value="+nex():boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-41">
+          <mxGeometry y="48" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-45" value="+getString(String):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-41">
+          <mxGeometry y="74" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-46" value="+getInt(String):int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-41">
+          <mxGeometry y="100" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-47" value="+getDouble(double):double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_CeGgNEBxp5tU7wePw3e-41">
+          <mxGeometry y="126" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CeGgNEBxp5tU7wePw3e-49" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Se utiliza para obtener resultados de una consulta a la base de datos. Para recorrer los resultados ResultSet tiene una serie de operaciones fundamentales:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;next():&lt;/b&gt; devuelve true o false, indicando si hay una tupla siguiente para analizar o no. &lt;b&gt;Si la hay, avanza el puntero una posición.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;getXYZ(nombreCampo: String):&lt;/b&gt;son métodos para obtener los valores de cada campo, dependiendo de su tipo. Por ejemplo:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;getInt(“id”) devolvería el entero que corresponde al campo “id”.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;getString(“nombre”) devolvería el String con el valor del campo “nombre”.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;getDate(“fecha”) devolvería un java.sql.Date almacenado en el campo fecha&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Y la lista sigue: getBoolean, getLong, getDouble, getByte, etc.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Cabe aclarar que getXYZ también acepta un número de columna como un entero —es decir, podríamos hacer getString(2) para obtener el valor del nombre del usuario, si el índice de columna está basado en 1 y no en 0—.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Si se utilizan “alias” en la consulta, el String que se pase al getXYZ será el alias.&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="274" y="715" width="560" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

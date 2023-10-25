@@ -1,0 +1,7 @@
+empezamos a dividir: 1/0
+Ocurrio unerror al dividir: 
+java.lang.ArithmeticException: / by zero
+	at Calculadora.Calcaludora_log4j.dividir(Calcaludora_log4j.java:27)
+	at Calculadora.Test.main(Test.java:12)
+empezamos a dividir: 2/3
+Terminamos de dividir con exito.

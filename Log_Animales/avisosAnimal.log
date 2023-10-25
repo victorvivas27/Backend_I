@@ -1,0 +1,27 @@
+[2023-10-19 10:53:25] [ INFO ] [Leon:18] El leon esta corrriendo
+[2023-10-19 10:53:25] [ INFO ] [Leon:18] El leon esta corrriendo
+[2023-10-19 10:53:25] [ ERROR] [Leon:31] Error: La edad no puede ser menor que cero para Bom
+[2023-10-19 10:53:25] [ INFO ] [Tigre:16] Tigre1 esta corrriendo.
+[2023-10-19 10:53:25] [ INFO ] [Tigre:28] Tigre1 es mayor de 10 años.
+[2023-10-19 11:01:24] [ INFO ] [Leon:18] El leon Simba  esta corrriendo
+[2023-10-19 11:01:24] [ INFO ] [Leon:18] El leon Bom  esta corrriendo
+[2023-10-19 11:01:24] [ ERROR] [Leon:31] Error: La edad no puede ser menor que cero para Bom
+[2023-10-19 11:01:24] [ INFO ] [Tigre:16] Tigre esta corrriendo.
+[2023-10-19 11:01:24] [ INFO ] [Tigre:28] Tigre es mayor de 10 años.
+[2023-10-19 11:02:26] [ INFO ] [Leon:18] El leon Simba  esta corrriendo
+[2023-10-19 11:02:26] [ INFO ] [Leon:18] El leon Bom  esta corrriendo
+[2023-10-19 11:02:26] [ ERROR] [Leon:31] Error: La edad no puede ser negativa
+[2023-10-19 11:02:26] [ INFO ] [Tigre:16] Tigre esta corrriendo.
+[2023-10-19 11:02:26] [ INFO ] [Tigre:28] Tigre es mayor de 10 años.
+[2023-10-19 11:08:30] [ INFO ] [Leon:18] El leon Simba  esta corrriendo
+[2023-10-19 11:08:30] [ INFO ] [Leon:18] El leon Bom  esta corrriendo
+[2023-10-19 11:08:30] [ ERROR] [Leon:32] Error: La edad no puede ser negativa
+[2023-10-19 11:08:30] [ ERROR] [Leon:33] La edad de Leon Bomes incorrecta
+[2023-10-19 11:08:30] [ INFO ] [Tigre:16] Tigre esta corrriendo.
+[2023-10-19 11:08:30] [ INFO ] [Tigre:28] Tigre es mayor de 10 años.
+[2023-10-19 11:08:47] [ INFO ] [Leon:18] El leon Simba  esta corrriendo
+[2023-10-19 11:08:47] [ INFO ] [Leon:18] El leon Bom  esta corrriendo
+[2023-10-19 11:08:47] [ ERROR] [Leon:32] Error: La edad no puede ser negativa
+[2023-10-19 11:08:47] [ ERROR] [Leon:33] La edad de Leon Bom es incorrecta
+[2023-10-19 11:08:47] [ INFO ] [Tigre:16] Tigre esta corrriendo.
+[2023-10-19 11:08:47] [ INFO ] [Tigre:28] Tigre es mayor de 10 años.
