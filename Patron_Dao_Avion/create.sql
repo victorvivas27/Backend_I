@@ -1,0 +1,7 @@
+ DROP TABLE IF EXISTS Aviones ;CREATE TABLE Aviones (
+    Marca VARCHAR(255) NOT NULL,
+    Modelo VARCHAR(255) NOT NULL,
+    Matricula VARCHAR(20) NOT NULL,
+    FechaEntradaServicio DATE,
+    ID INT AUTO_INCREMENT PRIMARY KEY
+);

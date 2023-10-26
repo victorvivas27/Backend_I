@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-10-25T00:15:17.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="MjGVeW01TqSJObJAaabw" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2023-10-26T11:49:47.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="FjqMrDYqzdhJHCS3C8iu" version="22.0.2" type="device">
   <diagram name="Página-1" id="qjvhuYgLX50wj-9F5xNO">
     <mxGraphModel dx="727" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -717,6 +717,9 @@
             <mxPoint x="380" y="3860" as="sourcePoint" />
             <mxPoint x="540" y="3860" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="c9Ztodqlb6H3bWmyYnTf-1" value="&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;Luego de recorrer el contenido de la clase de hoy, llegó tu turno de poner en práctica lo visto. Tenemos que crear una entidad que se llame Pacientes en la base de datos H2 que tenga los siguientes campos: nombre, apellido, domicilio, DNI, fecha de alta, usuario y password.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;¿Qué debés hacer?&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Crear una connection a la base de datos e insertar una fila paciente.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;Luego, abrir una transacción (setAutocommit(false)) y asignar otro password con una sentencia update y, paso siguiente, generar una excepción (throw new Exception).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;Por último, corroborar con una consulta que el paciente existe y que el campo password mantuvo su valor inicial del punto 1.&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="85" y="4230" width="560" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
