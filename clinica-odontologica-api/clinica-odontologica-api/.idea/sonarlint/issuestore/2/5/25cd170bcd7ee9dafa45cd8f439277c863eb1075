@@ -1,0 +1,16 @@
+
+r
+java:S2629#"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¢¦¿
+r
+java:S2629'"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(İÂà®
+?
+java:S26290"$Invoke method(s) only conditionally.(ÄÍûôúÿÿÿÿ
+?
+java:S2629<"$Invoke method(s) only conditionally.(îÜÅ¥üÿÿÿÿ
+:
+java:S2629P"$Invoke method(s) only conditionally.(›õÙ
+e	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øúºw
+W
+java:S3457#"AFormat specifiers should be used instead of string concatenation.(¢¦¿
+W
+java:S3457'"AFormat specifiers should be used instead of string concatenation.(İÂà®
