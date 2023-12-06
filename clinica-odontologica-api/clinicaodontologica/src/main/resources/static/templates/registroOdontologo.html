@@ -1,0 +1,71 @@
+<!-- registroPaciente.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/estyleRegistroOdontologo.css" rel="stylesheet">
+    <title>Registro de Paciente</title>
+    <!-- Agrega tus enlaces a archivos CSS y scripts JS según sea necesario -->
+</head>
+<body>
+<div class="conteiner">
+    <h2>Registro Odontologo</h2>
+    <form id="registro_formulario_paciente">
+
+        <!-- Información personal -->
+        <fieldset>
+            <legend>Información Personal</legend>
+
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input class="form-input" id="nombre" name="nombre" required type="text"/>
+                <span class="error" id="errorNombre"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input class="form-input" id="apellido" name="apellido" required type="text"/>
+                <span class="error" id="errorApellido"></span>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Matricula:</label>
+                <input class="form-input" id="matricula" name="matricula" required type="text"/>
+                <span class="error" id="errorMatricula"></span>
+            </div>
+        </fieldset>
+
+        <!-- Dirección -->
+        <fieldset>
+            <legend>Logeo</legend>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="form-input" id="email" name="email" required type="email"/>
+                <span class="error" id="errorEmail"></span>
+            </div>
+
+            <!-- Agregar otros campos de dirección según sea necesario -->
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input class="form-input" id="password" name="password" required type="password"/>
+                <span class="error" id="errorProvincia"></span>
+            </div>
+
+
+        </fieldset>
+
+        <!-- Botones -->
+        <button type="submit">Registrarme</button>
+        <button onclick="window.location.href='inicioSesionOdontologo.html'" type="button">
+            ¿Ya estás registrado? Inicia sesión
+        </button>
+
+    </form>
+</div>
+
+<!-- Agrega tus enlaces a archivos JS al final del body si es necesario -->
+<script src="../js/crear_Pacie.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

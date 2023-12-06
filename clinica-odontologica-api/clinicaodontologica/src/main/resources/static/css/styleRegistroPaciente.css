@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/Odontologia-img-1024x640.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+h2 {
+width: 50vh;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#registro_formulario_paciente {
+    height: 90vh;
+background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+button {
+    margin: 5px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+button:hover {
+    background-color: rgb(5, 0, 107);
+}
